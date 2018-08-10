@@ -41,12 +41,7 @@ add_library(
 
 add_dependencies(magic magic-autotools)
 
-#[[
-include_directories(
-    .
-    ./include
-)
-]]
+include_directories(.)
 
 set(config_install_dir "lib/cmake/${PROJECT_NAME}")
 set(include_install_dir "include")
